@@ -1,0 +1,6 @@
+Hi <%= @patient.name %>,
+
+This is a reminder that you have an appointment with <%= @provider.user.name %>
+at <%= @appointment.starts_at.strftime("%A %-d %B, %-I:%M%p") %>.
+
+See you then.
